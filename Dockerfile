@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi7/ubi:latest
+FROM openjdk:8u272-jre-slim
 USER root
 
 CMD tail -f /dev/null
